@@ -1,19 +1,20 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 import { projectList } from '../helpers/ProjectList';
 import GithubIcon from "@mui/icons-material/GitHub"
+import "../styles/ProjectDisplay.css"
 
 function ProjectDisplay() {
     const {id}=useParams();
-    const project= projectList[id]
+    const projects = projectList[id];
   return (
     <div className='project'>
-    <h1>{project.name}</h1>
-    <img src={project.image} />
-    <p>
-    <b>Skills:</b>{project.skills}
-    </p>
-    <GithubIcon />
+      <h1>{projects.name}</h1>
+      <img src={projects.image} alt=''/>
+      <p>
+        <b>Skills:</b>{projects.skills}
+      </p>
+      <GithubIcon />
     </div>
   )
 }
