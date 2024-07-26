@@ -1,20 +1,27 @@
-import proj2 from '../assests/proj2.jpg';
-
 
 export const projectList = [
     {
-        name: 'Todo List App',
-        image: proj2,
-        skills: 'React.js,HTML,CSS',
+        name: 'Yolo website',
+        image: 'yolo.png',
+        skills: 'React.js,Python,Machine Learning,Node.js,ExpressJs',
+        link: 'https://github.com/Abhay1006/yolo-website',
     },
     {
-        name: 'Learn Velocity',
-        image: proj2,
-        skills: 'React.js,HTML,CSS,javascript,nodejs',
+        name: 'Robin Hood',
+        image: 'robin.png',
+        skills: 'React.js,Node.js,Express.js,Google Maps',
+        link: 'https://robinhood-petshop.netlify.app/',
     },
     {
-        name: 'Calculator app',
-        image: proj2,
-        skills: 'React.js,HTML,CSS',
-    }
+        name: 'Text Editor',
+        image: 'editor.png',
+        skills: 'React.js,Node.js,ExpressJs',
+        link: 'https://github.com/Abhay1006/text-editor',
+    },
+    {
+        name: 'Color change',
+        image: 'color.png',
+        skills: 'React.js,Node.js,ExpressJs',
+        link: 'https://color-change-game.netlify.app/',
+    },
 ]

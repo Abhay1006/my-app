@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css"
 import SchoolIcon from "@mui/icons-material/School"
 import "../styles/Experience.css"
+import { EmojiEvents } from '@mui/icons-material';
 function Experience() {
   return (
     <div className='experience'>
@@ -31,6 +32,17 @@ function Experience() {
           Ajay Kumar Garg Engineering College, Ghaziabad, Uttar Pradesh
         </h3>
         <p>Computer Science Engineering(Artificia Inteligence and Machine Learning) </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+        className="vertical-timeline-element-education"
+        date="September-2023"
+        iconStyle={{ background: "#3e497a", color: "#fff"}}
+        icon={<EmojiEvents />}
+        >
+        <h3 className="vertical-timeline-element-title">
+          Geekathon 1.0 by VIT-AP
+        </h3>
+        <p>Advanced to the final round of the hackathon</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
